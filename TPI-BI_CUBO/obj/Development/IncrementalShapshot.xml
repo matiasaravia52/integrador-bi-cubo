@@ -1,0 +1,131 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>TPI-BI_CUBO</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>ywTv+8cs3ZByCYi+CWA1wWBx/gI=22/6/2022 23:08:3122/6/2022 22:50:01</TimeStamp>
+        <ID>
+          <String>db_tpi</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>EX1IXu69eQpEMcjaWGADbwEMPzk=2/7/2022 15:44:1022/6/2022 22:50:15</TimeStamp>
+        <ID>
+          <String>TPI Inteligencia Negocio DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>K1j6mzFVANsSypKj6gVtHFIkdFQ=22/6/2022 23:12:4322/6/2022 22:50:33</TimeStamp>
+        <ID>
+          <String>Estados</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>bqhsaWdQx0yEinlotoXfUGQn65w=28/6/2022 20:49:3922/6/2022 22:50:33</TimeStamp>
+        <ID>
+          <String>Clases</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>C0IcaMc1MVpFMnwqPsubsdE9VKU=22/6/2022 23:20:0422/6/2022 22:50:33</TimeStamp>
+        <ID>
+          <String>Aerolineas</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>vxXS9WaNiyOUN+qyVsWT8Tiw+tk=28/6/2022 21:00:3722/6/2022 22:50:33</TimeStamp>
+        <ID>
+          <String>Tiempos</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>sA2UvmdnDV9d/lGPiaOUxT29uZg=22/6/2022 23:17:2322/6/2022 22:50:33</TimeStamp>
+        <ID>
+          <String>Extras</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>/+R+vqsfTWN+8YQGtVQ6jiGAmbM=22/6/2022 23:20:0422/6/2022 23:01:01</TimeStamp>
+        <ID>
+          <String>Lugares</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>LNF3GnyZZwo2/6TrpBeKscjbPKA=22/6/2022 23:20:0422/6/2022 23:01:33</TimeStamp>
+        <ID>
+          <String>Aviones</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>WFZJbhaWrClK93bStLK+/P6mfYo=28/6/2022 21:00:3722/6/2022 22:50:33eXunFSrcK0oCr9xMpJkWRLvXA0w=22/6/2022 22:50:3322/6/2022 22:50:33</TimeStamp>
+        <ID>
+          <String>TPI Inteligencia Negocio DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>i+yjyhyteslL4rJv+GSzbhYaXnE=28/6/2022 21:00:3722/6/2022 23:01:334p4XDbbFeI1EkapUKRik0VTkpks=22/6/2022 23:01:3322/6/2022 23:01:33</TimeStamp>
+        <ID>
+          <String>TPI Inteligencia Negocio DW 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>RCmWS5A2MePmeNYmfr2ZJPxrhxc=2/7/2022 15:44:1028/6/2022 21:10:47eJ5mmHyeHPp6Mn4KmXLDbE8wDT0=28/6/2022 21:10:4728/6/2022 21:10:47</TimeStamp>
+        <ID>
+          <String>TPI Inteligencia Negocio DW 2</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.MiningStructure</Type>
+        <TimeStamp>LFWMa9M/G1omq0t/nU89fnIhjgc=29/6/2022 21:42:1629/6/2022 21:42:16</TimeStamp>
+        <ID>
+          <String>mineria_clases</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.MiningStructure</Type>
+        <TimeStamp>JcsnL7FrgAysMpNU2RT9hqpO9hk=29/6/2022 21:52:4129/6/2022 21:52:41</TimeStamp>
+        <ID>
+          <String>mineria_lugar_ciudad</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>aIhCQ/w87HVYEXqC4W7/w711wKg=22/6/2022 23:04:0515/6/2022 18:10:50</TimeStamp>
+      <ID>
+        <String>TPI-BI_CUBO</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2022-07-02T18:44:13.09Z</LastDeployed>
+</DeploymentSnapshot>
